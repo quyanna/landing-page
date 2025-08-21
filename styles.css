@@ -8,6 +8,8 @@ body {
 
 /* eliminate automatic margins  */
 h1,
+h2,
+h3,
 p,
 blockquote {
   margin: 0;
@@ -75,6 +77,7 @@ a {
 
 button {
   background-color: #3882f6;
+  border-radius: 8px;
 }
 
 .button-1 {
@@ -84,7 +87,6 @@ button {
   font-size: 18px;
   font-weight: bold;
   border: none;
-  border-radius: 4px;
 }
 
 /* Information Section */
@@ -99,6 +101,7 @@ button {
 }
 
 .information-header-text {
+  margin: 40px;
   font-size: 36px;
   font-weight: 900px;
   color: #1f2937;
@@ -147,6 +150,46 @@ cite {
   align-self: flex-end;
   font-weight: bold;
   font-style: normal;
+}
+
+/* Call to Action*/
+
+.call-to-action {
+  display: flex;
+  padding: 100px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  background-color: #3882f6;
+  padding: 50px 200px;
+  display: flex;
+  gap: 200px;
+  border-radius: 8px;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.action-left span {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.action-right {
+  align-self: center;
+}
+
+.button-2 {
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-color: white;
+  border-style: solid;
 }
 
 /* PLACEHOLDER FORMATTING */
