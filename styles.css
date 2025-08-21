@@ -80,6 +80,11 @@ button {
   border-radius: 8px;
 }
 
+button:hover {
+  background-color: white;
+  color: #3882f6;
+}
+
 .button-1 {
   width: 130px;
   padding: 8px 18px;
