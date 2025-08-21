@@ -8,9 +8,12 @@ body {
 
 /* eliminate automatic margins  */
 h1,
-p {
+p,
+blockquote {
   margin: 0;
 }
+
+/* Hero Section */
 
 .hero {
   color: white; /* Change to correct colors later */
@@ -84,13 +87,15 @@ button {
   border-radius: 4px;
 }
 
+/* Information Section */
+
 .information {
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: center;
   background-color: white;
-  padding: 10px 200px 50px;
+  padding: 10px 200px 100px;
 }
 
 .information-header-text {
@@ -119,6 +124,31 @@ button {
   color: gray;
   padding-top: 8px;
 }
+
+/* Quote Section */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 80px 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+cite {
+  align-self: flex-end;
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* PLACEHOLDER FORMATTING */
 
 .placeholder {
