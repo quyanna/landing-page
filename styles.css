@@ -5,6 +5,13 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #1f2937;
+  padding: 0px 150px;
+}
+
+/* eliminate automatic margins  */
+h1,
+p {
+  margin: 0;
 }
 
 .hero {
@@ -39,4 +46,50 @@ a {
 .hero-secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 50px;
+}
+
+.hero-pitch {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 300px;
+}
+
+button {
+  background-color: #3882f6;
+}
+
+.button-1 {
+  width: 130px;
+  padding: 8px 18px;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+}
+
+.placeholder {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 200px;
+  width: 600px;
 }
